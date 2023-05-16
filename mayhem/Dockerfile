@@ -6,15 +6,11 @@ RUN apt-get update && apt-get install -y build-essential
 
 ADD src /src
 ADD include /include
-ADD lib /lib
 ADD libsrc /libsrc
-ADD libwrk /libwrk
 ADD asminc /asminc
-ADD wrk /wrk
 ADD cfg /cfg
 ADD doc /doc
 ADD util /util
-ADD target /target
 ADD targettest /targettest
 ADD test /test
 ADD samples /samples
